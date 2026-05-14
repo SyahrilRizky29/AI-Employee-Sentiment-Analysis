@@ -1,6 +1,6 @@
 # 📊 AI-Employee-Sentiment-Analysis
 
-Sistem otomatisasi analisis sentimen survei kepuasan karyawan berbasis **n8n** dan **Google Gemini**. Workflow ini menerapkan prinsip **ETL** untuk mengolah ribuan feedback karyawan menjadi data analitik yang terstruktur.
+Sistem otomatisasi analisis sentimen survei kepuasan karyawan berbasis **n8n** dan **Groq AI**. Workflow ini menerapkan prinsip **ETL** untuk mengolah ribuan feedback karyawan menjadi data analitik yang terstruktur.
 
 ---
 
@@ -25,5 +25,5 @@ Sistem otomatisasi analisis sentimen survei kepuasan karyawan berbasis **n8n** d
 ## ⚙️ Persiapan
 * **n8n**: Import file `Survey Kepuasan Karyawan.json` ke instance n8n Anda.
 * **Google Sheets**: Siapkan sheet dengan kolom `employee_id`, `feedback`, `sentiment`, `category`, dan `action_plan`.
-* **AI Model**: Gunakan kredensial Google Gemini atau Groq.
+* **AI Model**: Gunakan kredensial Groq.
 ---
